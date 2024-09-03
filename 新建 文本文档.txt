@@ -1,26 +1,52 @@
-# 欢迎来到绿色未来
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
 
-## 发现可再生能源的力量
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section of my static website.</p >
+        </section>
 
-我们致力于推广可持续能源的知识和实践，为建设一个更绿色、更健康的未来贡献力量。
+        <section id="about">
+            <h2>About</h2>
+            <p>This website is created as a simple example of a static site using HTML, CSS, and JavaScript.</p >
+        </section>
 
-### 我们的使命
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 
-我们的使命是通过提供关于可再生能源的教育资源，激励和引导个人、企业和社区迈向可持续发展之路。我们相信，每个人都能通过了解和应用清洁能源技术来改善我们的世界。
+    <footer>
+        <p>&copy; 2024 My Static Website</p >
+    </footer>
 
-### 我们提供的资源
-
-- **教育课程**：我们提供各种关于太阳能、风能、地热能等可再生能源的在线课程，适合不同年龄和背景的学习者。
-- **项目案例**：浏览成功实施可再生能源项目的真实案例，了解如何将理论应用于实践。
-- **专家访谈**：观看行业专家的视频访谈，获取最新的行业见解和发展趋势。
-- **社区论坛**：加入我们的社区，与其他志同道合的人分享经验和讨论创新想法。
-
-### 为什么选择我们？
-
-- **专业团队**：我们由一群热衷于可再生能源的专家和教育者组成，致力于为您提供最准确、最新的信息。
-- **丰富内容**：我们平台上的资源涵盖了从基础知识到前沿技术的广泛内容，满足不同学习阶段的需求。
-- **互动学习**：通过参与我们的在线讨论和项目实践，您将获得宝贵的实战经验和专业指导。
-
-### 加入我们
-
-准备好开始您的绿色之旅了吗？[注册](#)并开始学习吧！探索我们如何共同推动可持续发展的未来。
+    <script src="script.js"></script>
+</body>
+</html>
